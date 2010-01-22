@@ -5,7 +5,7 @@ module ApplicationHelper
   end
   
   def full_page_title
-    page_title = [@site_name ||= "StaticMatic Bootstrap"]
+    page_title = [@site_name ||= "Ignite Houston"]
     page_title << @page_title
   end
   

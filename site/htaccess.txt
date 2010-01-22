@@ -1,0 +1,9 @@
+Options -indexes
+
+# Force www vs non-www
+# Avoid duplicate content
+RewriteEngine On
+  RewriteCond %{HTTP_HOST} !^www\.
+  RewriteRule ^(.*) http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirects

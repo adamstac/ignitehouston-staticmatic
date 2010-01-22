@@ -1,5 +1,5 @@
-ssh_user = "user@domain.com" # for rsync deployment
-remote_root = "~/path/to/remote/" # for rsync deployment
+ssh_user = "mt1" # for rsync deployment
+remote_root = "~/domains/letsignitehouston.com/html/" # for rsync deployment
 
 desc "Runs preview"
 task :preview do
